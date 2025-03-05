@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(127, 127, 224);
+    font-family: 'roboto', sans-serif;
+    background-image: url(https://webneel.com/daily/sites/default/files/images/daily/08-2018/1-nature-photography-spring-season-mumtazshamsee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-up{
+    width: 360px;
+    height: 620px;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.483);;
+    border-radius: 10px;
+
+}
+.login-box{
+    width: 360px;
+    height:280px;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 10px;
+
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left:20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;padding:7px;
+    border:1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+input[type="submit"]{
+    width: 320px;
+    height: 32px;
+    margin-top:20px;
+    border:none;
+    background-color: rgb(160, 143, 223);
+    color:white;
+    font-size: 18px;
+}
+p{
+    text-align:center;
+    padding-top:20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.para-2 a{
+    color:rgb(51, 40, 89);
+}
+/* input:invalid {
+    border: 1px solid red;
+}
+input:valid {
+    border: 2px solid green; /* Optional: Show green if valid */
+} */
